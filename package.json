@@ -1,0 +1,18 @@
+{
+  "name": "@pipeworx/mcp-emojihub",
+  "version": "1.0.0",
+  "description": "MCP server for emoji lookup by category and group via EmojiHub API",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "emojihub", "emoji", "unicode"],
+  "author": "Pipeworx <hello@pipeworx.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
