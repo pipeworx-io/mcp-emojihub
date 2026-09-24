@@ -1,18 +1,32 @@
 {
   "name": "@pipeworx/mcp-emojihub",
-  "version": "1.0.0",
-  "description": "MCP server for emoji lookup by category and group via EmojiHub API",
+  "version": "1.0.1",
+  "description": "EmojiHub MCP — wraps EmojiHub API (free, no auth)",
+  "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
-  "files": ["src"],
+  "bin": {
+    "mcp-emojihub": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "emojihub"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-emojihub.git"
+  },
   "scripts": {
-    "build": "tsc",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "emojihub", "emoji", "unicode"],
-  "author": "Pipeworx <hello@pipeworx.io>",
-  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-7efeeea512f96763dda2ef7fa18e31c747697fc368252b7930cab699d79f0784",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
