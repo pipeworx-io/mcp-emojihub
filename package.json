@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-emojihub",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "EmojiHub MCP — wraps EmojiHub API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-c18cfbb3772f32db0572305fde114a3c907b387bc707ae192395b07381165e27",
-    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
+    "sourceHash": "v1-3ff1260aa4cee335107fb7575f9c4339963357e11945390ea82953c2f71b4b2a",
+    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
   }
 }
